@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="hello_world" type="hello_world" name="hello" output="screen" />
+    <node pkg="turtlesim" type="turtlesim_node" name="t1"/>
+    <node pkg="turtlesim" type="turtle_teleop_key" name="key1" />
+</launch>

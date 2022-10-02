@@ -43,3 +43,15 @@ ROS = Plumbing + Tools + Capabilities + Ecosystem
 4. 进入工作空间目录并编译
 5. 进入工作空间目录并执行
 
+## launch 文件
+
+1. 选定功能包右击 ---> 添加 launch 文件夹
+2. 选定 launch 文件夹右击 ---> 添加 launch 文件
+3. 编辑 launch 文件内容
+4. 运行 launch 文件
+
+    ```bash
+    roslaunch 包名 launch文件名
+    ```
+
+5. 运行结果: 一次性启动了多个节点
