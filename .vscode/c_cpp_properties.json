@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/boiledman/Fast-Drone-250/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/boiledman/Fast-Drone-250/src/planner/bspline_opt/include/**",
+                "/home/boiledman/Fast-Drone-250/src/realflight_modules/VINS-Fusion/camera_models/include/**",
+                "/home/boiledman/Fast-Drone-250/src/utils/DecompROS/decomp_ros_utils/include/**",
+                "/home/boiledman/Fast-Drone-250/src/planner/drone_detect/include/**",
+                "/home/boiledman/Fast-Drone-250/src/planner/plan_manage/include/**",
+                "/home/boiledman/learn_ros/src/hello_world/include/**",
+                "/home/boiledman/Fast-Drone-250/src/uav_simulator/mockamap/include/**",
+                "/home/boiledman/Fast-Drone-250/src/planner/path_searching/include/**",
+                "/home/boiledman/Fast-Drone-250/src/planner/plan_env/include/**",
+                "/home/boiledman/Fast-Drone-250/src/utils/pose_utils/include/**",
+                "/home/boiledman/Fast-Drone-250/src/utils/quadrotor_msgs/include/**",
+                "/home/boiledman/Fast-Drone-250/src/realflight_modules/realsense-ros/realsense2_camera/include/**",
+                "/home/boiledman/Fast-Drone-250/src/uav_simulator/so3_control/include/**",
+                "/home/boiledman/Fast-Drone-250/src/uav_simulator/so3_quadrotor_simulator/include/**",
+                "/home/boiledman/Fast-Drone-250/src/planner/traj_utils/include/**",
+                "/home/boiledman/Fast-Drone-250/src/utils/uav_utils/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
