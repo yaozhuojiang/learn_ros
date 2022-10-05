@@ -159,20 +159,31 @@ OS 中的基本通信机制主要有如下三种实现策略:
 **理论模型**
 ![picture 2](.assets_IMG/README/IMG_20221002-141824151.png)  
 
-**代码实现**
-eg：demo02_talker_listener
+**代码实现**：eg：demo02_talker_listener
 
 ### 自定义msg
 
-功能：创建自定义消息
+**功能**：创建自定义消息
 
-流程：
+**流程**：
 
 1. 按照固定格式创建 msg 文件
 2. 编辑配置文件
 3. 编译生成可以被 Python 或 C++ 调用的中间文件
 
-eg：demo02_talker_listener/msg
+**代码实现**：eg：demo02_talker_listener/msg
 
 话题通信代码实现：demo02_talker_listener
 
+### 服务通信
+
+**概念**：以请求响应的方式实现不同节点之间数据交互的通信模式
+
+**作用**：用于偶然的、对时时性有要求、有一定逻辑处理需求的数据传输场景
+
+**理论模型**
+![picture 1](.assets_IMG/README/IMG_20221005-193238108.png)  
+
+**代码实现**：eg：demo03_server_client
+
+### 参数服务器

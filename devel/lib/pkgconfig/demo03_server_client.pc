@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/devel
+
+Name: demo03_server_client
+Description: Description of demo03_server_client
+Version: 0.0.0
+Cflags: -I/home/boiledman/learn_ros/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
