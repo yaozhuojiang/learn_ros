@@ -1,2 +1,2 @@
-hello_world
+demo02_talker_listener:hello_world
 -DCATKIN_DEVEL_PREFIX=/home/boiledman/learn_ros/devel -DCMAKE_INSTALL_PREFIX=/home/boiledman/learn_ros/install -G Unix Makefiles
