@@ -164,10 +164,15 @@ eg：demo02_talker_listener
 
 ### 自定义msg
 
-创建自定义消息
+功能：创建自定义消息
 
+流程：
 
+1. 按照固定格式创建 msg 文件
+2. 编辑配置文件
+3. 编译生成可以被 Python 或 C++ 调用的中间文件
 
-    按照固定格式创建 msg 文件
-    编辑配置文件
-    编译生成可以被 Python 或 C++ 调用的中间文件
+eg：demo02_talker_listener/msg
+
+话题通信代码实现：demo02_talker_listener
+

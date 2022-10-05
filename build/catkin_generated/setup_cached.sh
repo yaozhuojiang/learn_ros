@@ -8,3 +8,4 @@
 
 # modified environment variables
 export PWD='/home/boiledman/learn_ros/build'
+export PYTHONPATH="/home/boiledman/learn_ros/devel/lib/python3/dist-packages:$PYTHONPATH"
