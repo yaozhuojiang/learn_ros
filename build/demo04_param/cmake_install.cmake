@@ -52,3 +52,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo04_param" TYPE FILE FILES "/home/boiledman/learn_ros/src/demo04_param/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo04_param" TYPE PROGRAM FILES "/home/boiledman/learn_ros/build/demo04_param/catkin_generated/installspace/get_param.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo04_param" TYPE PROGRAM FILES "/home/boiledman/learn_ros/build/demo04_param/catkin_generated/installspace/update_param.py")
+endif()
+

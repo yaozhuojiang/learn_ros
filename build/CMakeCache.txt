@@ -403,6 +403,12 @@ demo04_param_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo04_param
 //Value Computed by CMake
 demo04_param_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo04_param
 
+//Value Computed by CMake
+demo05_control_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo05_control
+
+//Value Computed by CMake
+demo05_control_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo05_control
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
 
@@ -420,6 +426,9 @@ gennodejs_DIR:PATH=/opt/ros/noetic/share/gennodejs/cmake
 
 //The directory containing a CMake configuration file for genpy.
 genpy_DIR:PATH=/opt/ros/noetic/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/gtest/googlemock
@@ -657,7 +666,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

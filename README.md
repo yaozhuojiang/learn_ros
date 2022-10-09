@@ -196,3 +196,219 @@ OS 中的基本通信机制主要有如下三种实现策略:
 ![picture 1](.assets_IMG/README/IMG_20221007-120853717.png)  
 
 **代码实现**：demo04_param
+
+## 坐标轴和坐标系
+
+右手坐标系
+
+![picture 2](.assets_IMG/README/IMG_20221009-194713320.png)  
+
+通常相对于我们的身体而言：
+
+X -> 朝前  
+Y -> 朝左  
+Z -> 朝上
+
+三维坐标轴旋转定义
+
+![picture 1](.assets_IMG/README/IMG_20221009-194651153.png)  
+
+绕 Z轴 旋转，称之为 航向角，使用yaw表示
+
+绕 X轴 旋转，称之为 横滚角，使用roll表示
+
+绕 Y轴 旋转，称之为 俯仰角，使用pitch表示
+
+我们通常用来表述小车运动的二维平面指的是 X-Y平面，也就是X轴和Y轴张成的平面，在这个平面中，用来描述小车转弯的角就是绕Z轴的旋转，也就是经常说的航向角。Z轴朝上，所以按照右手法则可以知道小车向左转为正，右转为负。
+
+## 常用命令
+
+rosnode : 操作节点
+
+rostopic : 操作话题
+
+rosservice : 操作服务
+
+rosmsg : 操作msg消息
+
+rossrv : 操作srv消息
+
+rosparam : 操作参数
+
+代码实现：
+
+demo05_control 控制乌龟做圆周运动
+
+demo06_get_pose 得到乌龟的实时姿势
+
+demo07_
+
+## 话题发布_自定义控制节点控制乌龟做圆周运动
+
+1. 了解控制节点与显示节点使用的话题和消息，使用 ros 命令
+
+    ```bash
+    rqt_graph   # 获取话题
+    rostopic type /turtle1/cmd_vel  # 获取消息类型
+    rosmsg info geometry_msgs/Twist # 获取消息格式
+    ```
+
+
+```c++
+#include "ros/ros.h"
+#include "geometry_msgs/Twist.h"
+
+int main(int argc, char *argv[])
+{
+    ros::init(argc, argv, "control");
+    ros::NodeHandle nh;
+    ros::Publisher pub = nh.advertise<geometry_msgs::Twist>("/turtle1/cmd_vel", 1000);
+    geometry_msgs::Twist msg;
+    msg.linear.x = 1.0;
+    msg.linear.y = 0.0;
+    msg.linear.z = 0.0;
+
+    msg.angular.x = 0.0;
+    msg.angular.y = 0.0;
+    msg.angular.z = 2.0;
+
+    ros::Rate r(10);
+
+    while (ros::ok()) {
+        pub.publish(msg);
+    }
+
+    return 0;
+}
+```
+
+## 话题订阅_乌龟显示节点发布当前乌龟的位姿
+
+1. 话题获取
+    
+    ```bash
+    rostopic list
+    rostipic type /turtle1/pose
+    rosmsg info turtlesim/Pose
+    ```
+
+```c++
+#include "ros/ros.h"
+#include "turtlesim/Pose.h"
+
+void doPose(const turtlesim::Pose::ConstPtr &p)
+{
+    ROS_INFO("%.2f %.2f %.2f %.2f %.2f", p -> x, p -> y, p -> theta, 
+    p -> linear_velocity, p -> angular_velocity);
+}
+
+int main()
+{
+    ros::init();
+    ros::NodeHandle nh;
+    ros::Subscriber sub = nh.subsribe<turtlesim::Pose> ("/turtle1/Pose", 1000, doPose);
+    ros::spin();
+    return 0;
+}
+```
+
+```python
+import rospy
+from turtlesim.msg import Pose
+do doPose(data):
+    rospy.loginfo("%.2f %.2f", data.x, data.y)
+
+if __name__ == "__main__":
+    sub = rospy.Subsribe("/turtle1/Pose", Pose, doPose, queue_size = 1000)
+    rospy.spin();
+```
+
+## 服务调用
+
+1. 获取乌龟生成服务的服务名称以及服务消息类型
+
+    ```bash
+    rosservice list
+    rosservice type /spawn
+    rossrv info turtlesim/Spawn
+    ```
+
+```c++
+#include "ros/ros.h"
+#include "turtlesim/Spawn.h"
+
+int main(int argc, char *argv[])
+{
+    ros::init(argc, argv, "");
+    ros::NodeHandle nh;
+    ros::ServiceClient client = nh.serviceClient<turtlesim::Spawn>("/spawn");
+    ros::service::waitForService("/spawn");
+    turtlesim::Spawn spawn;
+    spawn.request.x = 1.0;
+    spawn.request.y = 1.0;
+    spawn.request.theta = 1.57;
+    spawn.request.name = "my_turtle";
+    bool flag = client.call(spawn);
+    if (flag) {
+        ROS_INFO("%s", spawn.response.name.c_str());
+    } else {
+        ROS_INFO("%s", "failed");
+    }
+    return 0;
+}
+```
+
+```python
+import rospy
+from turtlesim.srv import Spawn, SpawnRequest, SpawnResponse
+
+if __name__ == "__main__":
+    req = SpawnRequest()
+    req.x = 2.0
+    req.y = 2.0
+    req.theta = -1.57
+    req.name = "my_turtle_p"
+    try:
+        response = client.call(req)
+        rospy.loginfo("%s", response.name)
+    except expression as identifier:
+        rospy.loginfo("调用失败")
+```
+
+## 参数服务器的使用
+
+```bash
+rosparam list
+```
+
+```c++
+nh.setParam("background_r", 0);
+nh.setParam("background_g", 0);
+nh.setParam("background_b", 0);
+```
+
+```python
+import rospy
+if __name__ == "__main__":
+    rospy.init_node("hehe")
+    rospy.set_param("background_r", 255)
+    rospy.set_param("background_g", 255)
+    rospy.set_param("background_b", 255)
+```
+
+```bash
+rosparam set /turtlesim/background_b xxx1
+rosparam set /turtlesim/background_g xxx2
+rosparam set /turtlesim/background_b xxx3
+# ???
+rosrun turtlesim turtlesim_node _background_r:=100 _background_g=10
+```
+
+```html
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="set_bg" output="screen">
+        <param name="background_b" value="0" type="int" />
+    </node>
+    <rosparam command="load" file="$(find demo03_test_parameter)/cfg/color.yaml" />
+
+</launch>
