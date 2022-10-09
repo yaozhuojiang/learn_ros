@@ -7,4 +7,5 @@
 subdirs("gtest")
 subdirs("demo02_talker_listener")
 subdirs("demo03_server_client")
+subdirs("demo04_param")
 subdirs("hello_world")

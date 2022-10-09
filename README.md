@@ -138,7 +138,7 @@ eg：hello_world/
 
 5. 运行结果: 一次性启动了多个节点
 
-eg：hello_world/launch
+**代码实现**：hello_world/launch
 
 ## ROS 通信机制
 
@@ -159,7 +159,7 @@ OS 中的基本通信机制主要有如下三种实现策略:
 **理论模型**
 ![picture 2](.assets_IMG/README/IMG_20221002-141824151.png)  
 
-**代码实现**：eg：demo02_talker_listener
+**代码实现**：demo02_talker_listener
 
 ### 自定义msg
 
@@ -171,7 +171,7 @@ OS 中的基本通信机制主要有如下三种实现策略:
 2. 编辑配置文件
 3. 编译生成可以被 Python 或 C++ 调用的中间文件
 
-**代码实现**：eg：demo02_talker_listener/msg
+**代码实现**：demo02_talker_listener/msg
 
 话题通信代码实现：demo02_talker_listener
 
@@ -184,6 +184,15 @@ OS 中的基本通信机制主要有如下三种实现策略:
 **理论模型**
 ![picture 1](.assets_IMG/README/IMG_20221005-193238108.png)  
 
-**代码实现**：eg：demo03_server_client
+**代码实现**：demo03_server_client
 
 ### 参数服务器
+
+**概念**：以共享的方式实现不同节点之间数据交互的通信模式。
+
+**作用**：存储一些多节点共享的数据，类似于全局变量。
+
+**理论模型**
+![picture 1](.assets_IMG/README/IMG_20221007-120853717.png)  
+
+**代码实现**：demo04_param

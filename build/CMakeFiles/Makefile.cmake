@@ -23,6 +23,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "demo03_server_client/catkin_generated/ordered_paths.cmake"
   "demo03_server_client/catkin_generated/package.cmake"
   "demo03_server_client/cmake/demo03_server_client-genmsg.cmake"
+  "demo04_param/catkin_generated/ordered_paths.cmake"
+  "demo04_param/catkin_generated/package.cmake"
   "hello_world/catkin_generated/ordered_paths.cmake"
   "hello_world/catkin_generated/package.cmake"
   "/home/boiledman/learn_ros/devel/share/demo02_talker_listener/cmake/demo02_talker_listener-msg-paths.cmake"
@@ -38,6 +40,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/boiledman/learn_ros/src/demo03_server_client/package.xml"
   "/home/boiledman/learn_ros/src/demo03_server_client/scripts/AddInts_Client_p.py"
   "/home/boiledman/learn_ros/src/demo03_server_client/scripts/AddInts_Server_p.py"
+  "/home/boiledman/learn_ros/src/demo04_param/CMakeLists.txt"
+  "/home/boiledman/learn_ros/src/demo04_param/package.xml"
   "/home/boiledman/learn_ros/src/hello_world/CMakeLists.txt"
   "/home/boiledman/learn_ros/src/hello_world/package.xml"
   "/home/boiledman/learn_ros/src/hello_world/scripts/hello_world.py"
@@ -231,6 +235,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "demo02_talker_listener/CMakeFiles/CMakeDirectoryInformation.cmake"
   "demo03_server_client/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "demo04_param/CMakeFiles/CMakeDirectoryInformation.cmake"
   "hello_world/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -290,5 +295,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "demo03_server_client/CMakeFiles/demo03_server_client_generate_messages_eus.dir/DependInfo.cmake"
   "demo03_server_client/CMakeFiles/demo03_server_client_genpy.dir/DependInfo.cmake"
   "demo03_server_client/CMakeFiles/AddInts_Server.dir/DependInfo.cmake"
+  "demo04_param/CMakeFiles/delete_param.dir/DependInfo.cmake"
+  "demo04_param/CMakeFiles/get_param.dir/DependInfo.cmake"
+  "demo04_param/CMakeFiles/update_param.dir/DependInfo.cmake"
   "hello_world/CMakeFiles/hello_world.dir/DependInfo.cmake"
   )

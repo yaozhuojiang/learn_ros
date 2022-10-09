@@ -94,6 +94,16 @@
 /home/boiledman/learn_ros/build/demo03_server_client/CMakeFiles/demo03_server_client_generate_messages_eus.dir
 /home/boiledman/learn_ros/build/demo03_server_client/CMakeFiles/demo03_server_client_genpy.dir
 /home/boiledman/learn_ros/build/demo03_server_client/CMakeFiles/AddInts_Server.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/delete_param.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/get_param.dir
+/home/boiledman/learn_ros/build/demo04_param/CMakeFiles/update_param.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install/strip.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install/local.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install.dir

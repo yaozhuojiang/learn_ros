@@ -870,6 +870,45 @@ AddInts_Server/fast:
 .PHONY : AddInts_Server/fast
 
 #=============================================================================
+# Target rules for targets named delete_param
+
+# Build rule for target.
+delete_param: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 delete_param
+.PHONY : delete_param
+
+# fast build rule for target.
+delete_param/fast:
+	$(MAKE) -f demo04_param/CMakeFiles/delete_param.dir/build.make demo04_param/CMakeFiles/delete_param.dir/build
+.PHONY : delete_param/fast
+
+#=============================================================================
+# Target rules for targets named get_param
+
+# Build rule for target.
+get_param: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 get_param
+.PHONY : get_param
+
+# fast build rule for target.
+get_param/fast:
+	$(MAKE) -f demo04_param/CMakeFiles/get_param.dir/build.make demo04_param/CMakeFiles/get_param.dir/build
+.PHONY : get_param/fast
+
+#=============================================================================
+# Target rules for targets named update_param
+
+# Build rule for target.
+update_param: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 update_param
+.PHONY : update_param
+
+# fast build rule for target.
+update_param/fast:
+	$(MAKE) -f demo04_param/CMakeFiles/update_param.dir/build.make demo04_param/CMakeFiles/update_param.dir/build
+.PHONY : update_param/fast
+
+#=============================================================================
 # Target rules for targets named hello_world
 
 # Build rule for target.
@@ -949,6 +988,9 @@ help:
 	@echo "... demo03_server_client_generate_messages_eus"
 	@echo "... demo03_server_client_genpy"
 	@echo "... AddInts_Server"
+	@echo "... delete_param"
+	@echo "... get_param"
+	@echo "... update_param"
 	@echo "... hello_world"
 .PHONY : help
 

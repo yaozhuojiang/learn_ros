@@ -397,6 +397,12 @@ demo03_server_client_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo03_se
 //Value Computed by CMake
 demo03_server_client_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo03_server_client
 
+//Value Computed by CMake
+demo04_param_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo04_param
+
+//Value Computed by CMake
+demo04_param_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo04_param
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
 
@@ -651,7 +657,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
