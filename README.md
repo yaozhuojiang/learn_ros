@@ -241,59 +241,9 @@ demo05_control 控制乌龟做圆周运动
 
 demo06_get_pose 得到乌龟的实时姿势
 
-demo07_
+demo07_spawn_turtle 生产乌龟
 
-## 服务调用
-
-1. 获取乌龟生成服务的服务名称以及服务消息类型
-
-    ```bash
-    rosservice list
-    rosservice type /spawn
-    rossrv info turtlesim/Spawn
-    ```
-
-```c++
-#include "ros/ros.h"
-#include "turtlesim/Spawn.h"
-
-int main(int argc, char *argv[])
-{
-    ros::init(argc, argv, "");
-    ros::NodeHandle nh;
-    ros::ServiceClient client = nh.serviceClient<turtlesim::Spawn>("/spawn");
-    ros::service::waitForService("/spawn");
-    turtlesim::Spawn spawn;
-    spawn.request.x = 1.0;
-    spawn.request.y = 1.0;
-    spawn.request.theta = 1.57;
-    spawn.request.name = "my_turtle";
-    bool flag = client.call(spawn);
-    if (flag) {
-        ROS_INFO("%s", spawn.response.name.c_str());
-    } else {
-        ROS_INFO("%s", "failed");
-    }
-    return 0;
-}
-```
-
-```python
-import rospy
-from turtlesim.srv import Spawn, SpawnRequest, SpawnResponse
-
-if __name__ == "__main__":
-    req = SpawnRequest()
-    req.x = 2.0
-    req.y = 2.0
-    req.theta = -1.57
-    req.name = "my_turtle_p"
-    try:
-        response = client.call(req)
-        rospy.loginfo("%s", response.name)
-    except expression as identifier:
-        rospy.loginfo("调用失败")
-```
+demo08_set_backgroud 修改turtlesim乌龟显示节点窗体的背景色
 
 ## 参数服务器的使用
 

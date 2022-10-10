@@ -29,6 +29,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "demo05_control/catkin_generated/package.cmake"
   "demo06_get_pose/catkin_generated/ordered_paths.cmake"
   "demo06_get_pose/catkin_generated/package.cmake"
+  "demo07_spawn_turtle/catkin_generated/ordered_paths.cmake"
+  "demo07_spawn_turtle/catkin_generated/package.cmake"
   "hello_world/catkin_generated/ordered_paths.cmake"
   "hello_world/catkin_generated/package.cmake"
   "/home/boiledman/learn_ros/devel/share/demo02_talker_listener/cmake/demo02_talker_listener-msg-paths.cmake"
@@ -54,6 +56,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/boiledman/learn_ros/src/demo06_get_pose/CMakeLists.txt"
   "/home/boiledman/learn_ros/src/demo06_get_pose/package.xml"
   "/home/boiledman/learn_ros/src/demo06_get_pose/scripts/get_pose.py"
+  "/home/boiledman/learn_ros/src/demo07_spawn_turtle/CMakeLists.txt"
+  "/home/boiledman/learn_ros/src/demo07_spawn_turtle/package.xml"
+  "/home/boiledman/learn_ros/src/demo07_spawn_turtle/scripts/spawn_turtle.py"
   "/home/boiledman/learn_ros/src/hello_world/CMakeLists.txt"
   "/home/boiledman/learn_ros/src/hello_world/package.xml"
   "/home/boiledman/learn_ros/src/hello_world/scripts/hello_world.py"
@@ -260,6 +265,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "demo05_control/CMakeFiles/CMakeDirectoryInformation.cmake"
   "hello_world/CMakeFiles/CMakeDirectoryInformation.cmake"
   "demo06_get_pose/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "demo07_spawn_turtle/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -339,4 +345,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "demo06_get_pose/CMakeFiles/std_srvs_generate_messages_lisp.dir/DependInfo.cmake"
   "demo06_get_pose/CMakeFiles/turtlesim_generate_messages_py.dir/DependInfo.cmake"
   "demo06_get_pose/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake"
+  "demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir/DependInfo.cmake"
   )

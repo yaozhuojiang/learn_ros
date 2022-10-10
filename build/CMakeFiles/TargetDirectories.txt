@@ -143,3 +143,11 @@
 /home/boiledman/learn_ros/build/demo06_get_pose/CMakeFiles/test.dir
 /home/boiledman/learn_ros/build/demo06_get_pose/CMakeFiles/rebuild_cache.dir
 /home/boiledman/learn_ros/build/demo06_get_pose/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir

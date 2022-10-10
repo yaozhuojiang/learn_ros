@@ -415,6 +415,12 @@ demo06_get_pose_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo06_get_pos
 //Value Computed by CMake
 demo06_get_pose_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo06_get_pose
 
+//Value Computed by CMake
+demo07_spawn_turtle_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo07_spawn_turtle
+
+//Value Computed by CMake
+demo07_spawn_turtle_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo07_spawn_turtle
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
 
@@ -678,7 +684,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -137,6 +137,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/boiledman/learn_ros/build/demo05_control/cmake_install.cmake")
   include("/home/boiledman/learn_ros/build/hello_world/cmake_install.cmake")
   include("/home/boiledman/learn_ros/build/demo06_get_pose/cmake_install.cmake")
+  include("/home/boiledman/learn_ros/build/demo07_spawn_turtle/cmake_install.cmake")
 
 endif()
 
