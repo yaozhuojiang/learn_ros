@@ -1000,6 +1000,19 @@ set_background/fast:
 .PHONY : set_background/fast
 
 #=============================================================================
+# Target rules for targets named time
+
+# Build rule for target.
+time: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 time
+.PHONY : time
+
+# fast build rule for target.
+time/fast:
+	$(MAKE) -f demo09_time/CMakeFiles/time.dir/build.make demo09_time/CMakeFiles/time.dir/build
+.PHONY : time/fast
+
+#=============================================================================
 # Target rules for targets named hello_world
 
 # Build rule for target.
@@ -1245,6 +1258,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... set_background"
+	@echo "... time"
 	@echo "... hello_world"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_eus"

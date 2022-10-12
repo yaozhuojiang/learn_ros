@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/install
+
+Name: demo09_time
+Description: Description of demo09_time
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
