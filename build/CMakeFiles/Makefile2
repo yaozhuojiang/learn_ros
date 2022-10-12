@@ -58,6 +58,7 @@ all: demo02_talker_listener/all
 all: demo03_server_client/all
 all: demo04_param/all
 all: demo05_control/all
+all: demo08_set_background/all
 all: hello_world/all
 all: demo06_get_pose/all
 all: demo07_spawn_turtle/all
@@ -70,6 +71,7 @@ preinstall: demo02_talker_listener/preinstall
 preinstall: demo03_server_client/preinstall
 preinstall: demo04_param/preinstall
 preinstall: demo05_control/preinstall
+preinstall: demo08_set_background/preinstall
 preinstall: hello_world/preinstall
 preinstall: demo06_get_pose/preinstall
 preinstall: demo07_spawn_turtle/preinstall
@@ -87,6 +89,7 @@ clean: demo02_talker_listener/clean
 clean: demo03_server_client/clean
 clean: demo04_param/clean
 clean: demo05_control/clean
+clean: demo08_set_background/clean
 clean: hello_world/clean
 clean: demo06_get_pose/clean
 clean: demo07_spawn_turtle/clean
@@ -268,6 +271,24 @@ demo07_spawn_turtle/preinstall:
 demo07_spawn_turtle/clean: demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir/clean
 
 .PHONY : demo07_spawn_turtle/clean
+
+#=============================================================================
+# Directory level rules for directory demo08_set_background
+
+# Recursive "all" directory target.
+demo08_set_background/all: demo08_set_background/CMakeFiles/set_background.dir/all
+
+.PHONY : demo08_set_background/all
+
+# Recursive "preinstall" directory target.
+demo08_set_background/preinstall:
+
+.PHONY : demo08_set_background/preinstall
+
+# Recursive "clean" directory target.
+demo08_set_background/clean: demo08_set_background/CMakeFiles/set_background.dir/clean
+
+.PHONY : demo08_set_background/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -1882,7 +1903,7 @@ demo04_param/CMakeFiles/get_param.dir/clean:
 demo04_param/CMakeFiles/update_param.dir/all:
 	$(MAKE) -f demo04_param/CMakeFiles/update_param.dir/build.make demo04_param/CMakeFiles/update_param.dir/depend
 	$(MAKE) -f demo04_param/CMakeFiles/update_param.dir/build.make demo04_param/CMakeFiles/update_param.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boiledman/learn_ros/build/CMakeFiles --progress-num=47,48 "Built target update_param"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boiledman/learn_ros/build/CMakeFiles --progress-num=49,50 "Built target update_param"
 .PHONY : demo04_param/CMakeFiles/update_param.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2063,6 +2084,33 @@ geometry_msgs_generate_messages_cpp: demo05_control/CMakeFiles/geometry_msgs_gen
 demo05_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 	$(MAKE) -f demo05_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make demo05_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 .PHONY : demo05_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target demo08_set_background/CMakeFiles/set_background.dir
+
+# All Build rule for target.
+demo08_set_background/CMakeFiles/set_background.dir/all:
+	$(MAKE) -f demo08_set_background/CMakeFiles/set_background.dir/build.make demo08_set_background/CMakeFiles/set_background.dir/depend
+	$(MAKE) -f demo08_set_background/CMakeFiles/set_background.dir/build.make demo08_set_background/CMakeFiles/set_background.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boiledman/learn_ros/build/CMakeFiles --progress-num=45,46 "Built target set_background"
+.PHONY : demo08_set_background/CMakeFiles/set_background.dir/all
+
+# Build rule for subdir invocation for target.
+demo08_set_background/CMakeFiles/set_background.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boiledman/learn_ros/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 demo08_set_background/CMakeFiles/set_background.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boiledman/learn_ros/build/CMakeFiles 0
+.PHONY : demo08_set_background/CMakeFiles/set_background.dir/rule
+
+# Convenience name for target.
+set_background: demo08_set_background/CMakeFiles/set_background.dir/rule
+
+.PHONY : set_background
+
+# clean rule for target.
+demo08_set_background/CMakeFiles/set_background.dir/clean:
+	$(MAKE) -f demo08_set_background/CMakeFiles/set_background.dir/build.make demo08_set_background/CMakeFiles/set_background.dir/clean
+.PHONY : demo08_set_background/CMakeFiles/set_background.dir/clean
 
 #=============================================================================
 # Target rules for target hello_world/CMakeFiles/hello_world.dir
@@ -2395,7 +2443,7 @@ demo06_get_pose/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
 demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir/all:
 	$(MAKE) -f demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir/build.make demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir/depend
 	$(MAKE) -f demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir/build.make demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boiledman/learn_ros/build/CMakeFiles --progress-num=45,46 "Built target spawn_turtle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boiledman/learn_ros/build/CMakeFiles --progress-num=47,48 "Built target spawn_turtle"
 .PHONY : demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir/all
 
 # Build rule for subdir invocation for target.

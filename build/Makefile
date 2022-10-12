@@ -987,6 +987,19 @@ geometry_msgs_generate_messages_cpp/fast:
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named set_background
+
+# Build rule for target.
+set_background: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 set_background
+.PHONY : set_background
+
+# fast build rule for target.
+set_background/fast:
+	$(MAKE) -f demo08_set_background/CMakeFiles/set_background.dir/build.make demo08_set_background/CMakeFiles/set_background.dir/build
+.PHONY : set_background/fast
+
+#=============================================================================
 # Target rules for targets named hello_world
 
 # Build rule for target.
@@ -1231,6 +1244,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... set_background"
 	@echo "... hello_world"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_eus"

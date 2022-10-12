@@ -117,6 +117,14 @@
 /home/boiledman/learn_ros/build/demo05_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
 /home/boiledman/learn_ros/build/demo05_control/CMakeFiles/geometry_msgs_generate_messages_eus.dir
 /home/boiledman/learn_ros/build/demo05_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+/home/boiledman/learn_ros/build/demo08_set_background/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo08_set_background/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo08_set_background/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo08_set_background/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo08_set_background/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo08_set_background/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo08_set_background/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo08_set_background/CMakeFiles/set_background.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install/strip.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install/local.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install.dir
