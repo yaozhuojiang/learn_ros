@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="demo10_log" type="log" name="log" output="screen" />
+</launch>

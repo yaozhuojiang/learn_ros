@@ -1013,6 +1013,19 @@ time/fast:
 .PHONY : time/fast
 
 #=============================================================================
+# Target rules for targets named log
+
+# Build rule for target.
+log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 log
+.PHONY : log
+
+# fast build rule for target.
+log/fast:
+	$(MAKE) -f demo10_log/CMakeFiles/log.dir/build.make demo10_log/CMakeFiles/log.dir/build
+.PHONY : log/fast
+
+#=============================================================================
 # Target rules for targets named hello_world
 
 # Build rule for target.
@@ -1259,6 +1272,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... set_background"
 	@echo "... time"
+	@echo "... log"
 	@echo "... hello_world"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_eus"

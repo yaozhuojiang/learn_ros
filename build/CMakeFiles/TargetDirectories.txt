@@ -133,6 +133,14 @@
 /home/boiledman/learn_ros/build/demo09_time/CMakeFiles/test.dir
 /home/boiledman/learn_ros/build/demo09_time/CMakeFiles/install/local.dir
 /home/boiledman/learn_ros/build/demo09_time/CMakeFiles/time.dir
+/home/boiledman/learn_ros/build/demo10_log/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo10_log/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo10_log/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo10_log/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo10_log/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo10_log/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo10_log/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo10_log/CMakeFiles/log.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install/strip.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install/local.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install.dir

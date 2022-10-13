@@ -47,7 +47,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -433,6 +433,12 @@ demo09_time_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo09_time
 //Value Computed by CMake
 demo09_time_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo09_time
 
+//Value Computed by CMake
+demo10_log_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo10_log
+
+//Value Computed by CMake
+demo10_log_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo10_log
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
 
@@ -696,7 +702,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
