@@ -25,7 +25,8 @@
                 "/home/boiledman/Fast-Drone-250/src/planner/traj_utils/include/**",
                 "/home/boiledman/Fast-Drone-250/src/utils/uav_utils/include/**",
                 "/usr/include/**",
-                "/home/boiledman/learn_ros/devel/include/**"
+                "/home/boiledman/learn_ros/devel/include/**",
+                "/home/boiledman/learn_ros/src/demo11_head/include/**"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
