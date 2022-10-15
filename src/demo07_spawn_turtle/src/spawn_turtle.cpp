@@ -19,11 +19,11 @@ int main(int argc, char *argv[])
     ros::ServiceClient client = nh.serviceClient<turtlesim::Spawn>("/spawn");
     ros::service::waitForService("/spawn");
     turtlesim::Spawn spawn;
-    for (int i = 1; i <= 50; i++) {
-        spawn.request.x = random(0, N);
-        spawn.request.y = random(0, N);
-        spawn.request.theta = random(0, 6);
-        spawn.request.name = "my_turtle" + std::to_string(i + 15);
+    for (int i = 2; i <= 3; i++) {
+        spawn.request.x = 5.54;
+        spawn.request.y = 5.54 + i * (-0.6);
+        spawn.request.theta = 0;
+        spawn.request.name = "turtle" + std::to_string(i);
         bool flag = client.call(spawn);
         if (flag) {
             ROS_INFO("OK");

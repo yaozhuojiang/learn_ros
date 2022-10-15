@@ -7,6 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/boiledman/learn_ros/src/demo05_control/src/control.cpp
+utility
+-
+vector
+-
+string
+-
 ros/ros.h
 /home/boiledman/learn_ros/src/demo05_control/src/ros/ros.h
 geometry_msgs/Twist.h
