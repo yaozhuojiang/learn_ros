@@ -79,6 +79,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/boiledman/learn_ros/src/demo10_log/package.xml"
   "/home/boiledman/learn_ros/src/demo11_head/CMakeLists.txt"
   "/home/boiledman/learn_ros/src/demo11_head/package.xml"
+  "/home/boiledman/learn_ros/src/demo11_head/scripts/use_a.py"
   "/home/boiledman/learn_ros/src/demo11_use_head/CMakeLists.txt"
   "/home/boiledman/learn_ros/src/demo11_use_head/package.xml"
   "/home/boiledman/learn_ros/src/hello_world/CMakeLists.txt"

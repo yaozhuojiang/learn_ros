@@ -52,3 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo11_head" TYPE FILE FILES "/home/boiledman/learn_ros/src/demo11_head/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo11_head" TYPE PROGRAM FILES "/home/boiledman/learn_ros/build/demo11_head/catkin_generated/installspace/use_a.py")
+endif()
+

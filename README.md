@@ -249,4 +249,6 @@ demo09_time ROS 时间api的使用
 
 demo10_log  ROS log api的使用 ROS 如何进行调试
 
-demo11_head ROS 头文件的使用方法
+demo11_head ROS 头文件，源文件也是可执行文件的使用方法，以及 python 如何引入自定义模块
+
+demo11_use_head ROS 头文件，源文件的使用方法
