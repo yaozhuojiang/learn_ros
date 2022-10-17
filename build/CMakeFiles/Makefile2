@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/boiledman/learn_ros/build
 
 # The main recursive "all" target.
 all: gtest/all
+all: demo12_meta_package/all
 all: demo02_talker_listener/all
 all: demo03_server_client/all
 all: demo04_param/all
@@ -71,6 +72,7 @@ all: demo07_spawn_turtle/all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
+preinstall: demo12_meta_package/preinstall
 preinstall: demo02_talker_listener/preinstall
 preinstall: demo03_server_client/preinstall
 preinstall: demo04_param/preinstall
@@ -93,6 +95,7 @@ clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
+clean: demo12_meta_package/clean
 clean: demo02_talker_listener/clean
 clean: demo03_server_client/clean
 clean: demo04_param/clean
@@ -375,6 +378,24 @@ demo11_use_head/clean: demo11_use_head/CMakeFiles/use.dir/clean
 demo11_use_head/clean: demo11_use_head/CMakeFiles/use_head.dir/clean
 
 .PHONY : demo11_use_head/clean
+
+#=============================================================================
+# Directory level rules for directory demo12_meta_package
+
+# Recursive "all" directory target.
+demo12_meta_package/all:
+
+.PHONY : demo12_meta_package/all
+
+# Recursive "preinstall" directory target.
+demo12_meta_package/preinstall:
+
+.PHONY : demo12_meta_package/preinstall
+
+# Recursive "clean" directory target.
+demo12_meta_package/clean: demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : demo12_meta_package/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -694,6 +715,33 @@ gtest: gtest/googletest/CMakeFiles/gtest.dir/rule
 gtest/googletest/CMakeFiles/gtest.dir/clean:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/build.make demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/build.make demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boiledman/learn_ros/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+.PHONY : demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boiledman/learn_ros/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boiledman/learn_ros/build/CMakeFiles 0
+.PHONY : demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/build.make demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Target rules for target demo02_talker_listener/CMakeFiles/person_listener.dir

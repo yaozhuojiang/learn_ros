@@ -35,6 +35,14 @@
 /home/boiledman/learn_ros/build/gtest/googletest/CMakeFiles/test.dir
 /home/boiledman/learn_ros/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/boiledman/learn_ros/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/boiledman/learn_ros/build/demo12_meta_package/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo12_meta_package/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo12_meta_package/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo12_meta_package/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo12_meta_package/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo12_meta_package/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo12_meta_package/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo12_meta_package/CMakeFiles/_catkin_empty_exported_target.dir
 /home/boiledman/learn_ros/build/demo02_talker_listener/CMakeFiles/install/strip.dir
 /home/boiledman/learn_ros/build/demo02_talker_listener/CMakeFiles/install.dir
 /home/boiledman/learn_ros/build/demo02_talker_listener/CMakeFiles/list_install_components.dir

@@ -451,6 +451,12 @@ demo11_use_head_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo11_use_hea
 //Value Computed by CMake
 demo11_use_head_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo11_use_head
 
+//Value Computed by CMake
+demo12_meta_package_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo12_meta_package
+
+//Value Computed by CMake
+demo12_meta_package_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo12_meta_package
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
 
@@ -717,7 +723,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

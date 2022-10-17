@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/devel
+
+Name: demo12_meta_package
+Description: Description of demo12_meta_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

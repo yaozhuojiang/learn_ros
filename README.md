@@ -127,16 +127,9 @@ eg：hello_world/
 
 ## launch 文件
 
-1. 选定功能包右击 ---> 添加 launch 文件夹
-2. 选定 launch 文件夹右击 ---> 添加 launch 文件
-3. 编辑 launch 文件内容
-4. 运行 launch 文件
+roslaunch 命令不能保证按照 node 的声明顺序来启动节点(节点的启动是多进程的)
 
-    ```bash
-    roslaunch 包名 launch文件名
-    ```
-
-5. 运行结果: 一次性启动了多个节点
+[laucn文件标签](http://www.autolabor.com.cn/book/ROSTutorials/5/45-rosjie-dianguan-li-launch-wen-jian/412-launchwen-jian-biao-qian-zhi-node.html)
 
 **代码实现**：hello_world/launch
 
@@ -252,3 +245,19 @@ demo10_log  ROS log api的使用 ROS 如何进行调试
 demo11_head ROS 头文件，源文件也是可执行文件的使用方法，以及 python 如何引入自定义模块
 
 demo11_use_head ROS 头文件，源文件的使用方法
+
+## 元功能包
+
+MetaPackage是Linux的一个文件管理系统的概念。是ROS中的一个虚包，里面没有实质性的内容，但是它依赖了其他的软件包，通过这种方法可以把其他包组合起来，我们可以认为它是一本书的目录索引，告诉我们这个包集合中有哪些子包，并且该去哪里下载。
+
+代码实现：
+
+demo12_meta_package
+
+## ROS 运行管理
+
+功能包重名时，会按照 ROS_PACKAGE_PATH 查找，配置在前的会优先执行。
+ROS_PACKAGE_PATH 中的值，和 .bashrc 的配置顺序相反--->后配置的优先级更高
+
+### 节点名称重名的解决方法
+
