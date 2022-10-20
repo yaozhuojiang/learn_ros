@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/devel
+
+Name: demo18_multi_transformation
+Description: Description of demo18_multi_transformation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
