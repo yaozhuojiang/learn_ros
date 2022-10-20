@@ -1,0 +1,13 @@
+<launch>
+
+    <!-- <node pkg="turtlesim" type="turtlesim_node" name="t1" />
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="key">
+        <remap from="/cmd_vel" to="/turtle1/cmd_vel" />
+    </node> -->
+
+    <node pkg="turtlesim" type="turtlesim_node" name="t1">
+        <remap from="/turtle1/cmd_vel" to="/cmd_vel" />
+    </node>
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="key" />
+
+</launch>
