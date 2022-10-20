@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/install
+
+Name: demo13_duplicate_node
+Description: Description of demo13_duplicate_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

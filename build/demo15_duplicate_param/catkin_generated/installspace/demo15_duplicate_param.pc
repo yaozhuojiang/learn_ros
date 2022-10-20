@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/install
+
+Name: demo15_duplicate_param
+Description: Description of demo15_duplicate_param
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

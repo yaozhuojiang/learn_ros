@@ -379,6 +379,12 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/noetic/share/actionlib/cmake
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
@@ -457,6 +463,30 @@ demo12_meta_package_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo12_met
 //Value Computed by CMake
 demo12_meta_package_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo12_meta_package
 
+//Value Computed by CMake
+demo13_duplicate_node_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo13_duplicate_node
+
+//Value Computed by CMake
+demo13_duplicate_node_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo13_duplicate_node
+
+//Value Computed by CMake
+demo14_duplicate_topic_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo14_duplicate_topic
+
+//Value Computed by CMake
+demo14_duplicate_topic_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo14_duplicate_topic
+
+//Value Computed by CMake
+demo15_duplicate_param_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo15_duplicate_param
+
+//Value Computed by CMake
+demo15_duplicate_param_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo15_duplicate_param
+
+//Value Computed by CMake
+demo16_tf_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo16_tf
+
+//Value Computed by CMake
+demo16_tf_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo16_tf
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
 
@@ -533,6 +563,9 @@ hello_world_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/hello_world
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
+
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 
@@ -551,6 +584,9 @@ roscpp_serialization_DIR:PATH=/opt/ros/noetic/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/noetic/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/noetic/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/noetic/share/rosgraph_msgs/cmake
 
@@ -565,6 +601,21 @@ std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for std_srvs.
 std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/noetic/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_geometry_msgs.
+tf2_geometry_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/noetic/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/noetic/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/noetic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for turtlesim.
 turtlesim_DIR:PATH=/opt/ros/noetic/share/turtlesim/cmake
@@ -723,7 +774,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
