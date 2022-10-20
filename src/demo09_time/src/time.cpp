@@ -54,24 +54,24 @@ int main(int argc, char *argv[])
     // }
 
 
- // ROS 定时器
- /**
-* \brief 创建一个定时器，按照指定频率调用回调函数。
-*
-* \param period 时间间隔
-* \param callback 回调函数
-* \param oneshot 如果设置为 true,只执行一次回调函数，设置为 false,就循环执行。
-* \param autostart 如果为true，返回已经启动的定时器,设置为 false，需要手动启动。
-*/
- //Timer createTimer(Duration period, const TimerCallback& callback, bool oneshot = false,
- //                bool autostart = true) const;
+    // ROS 定时器
+    /**
+    * \brief 创建一个定时器，按照指定频率调用回调函数。
+    *
+    * \param period 时间间隔
+    * \param callback 回调函数
+    * \param oneshot 如果设置为 true,只执行一次回调函数，设置为 false,就循环执行。
+    * \param autostart 如果为true，返回已经启动的定时器,设置为 false，需要手动启动。
+    */
+    //Timer createTimer(Duration period, const TimerCallback& callback, bool oneshot = false,
+    //                bool autostart = true) const;
 
- // ros::Timer timer = nh.createTimer(ros::Duration(0.5),doSomeThing);
- ros::Timer timer = nh.createTimer(ros::Duration(0.5),doSomeThing,false);//只执行一次
+    // ros::Timer timer = nh.createTimer(ros::Duration(0.5),doSomeThing);
+    ros::Timer timer = nh.createTimer(ros::Duration(0.5),doSomeThing,false);//只执行一次
 
- // ros::Timer timer = nh.createTimer(ros::Duration(0.5),doSomeThing,false,false);//需要手动启动
- // timer.start();
- ros::spin(); //必须 spin
+    // ros::Timer timer = nh.createTimer(ros::Duration(0.5),doSomeThing,false,false);//需要手动启动
+    // timer.start();
+    ros::spin(); //必须 spin
 
     return 0;
 }
