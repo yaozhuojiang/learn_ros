@@ -248,3 +248,12 @@
 /home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/test.dir
 /home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/install/local.dir
 /home/boiledman/learn_ros/build/demo07_spawn_turtle/CMakeFiles/spawn_turtle.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/dynamic_tf_sub.dir
+/home/boiledman/learn_ros/build/demo17_tf_turle/CMakeFiles/dynamic_tf_pub.dir

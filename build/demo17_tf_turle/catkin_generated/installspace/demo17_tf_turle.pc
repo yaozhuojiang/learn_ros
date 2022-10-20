@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/install
+
+Name: demo17_tf_turle
+Description: Description of demo17_tf_turle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

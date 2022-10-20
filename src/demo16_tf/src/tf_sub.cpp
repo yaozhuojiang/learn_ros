@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
             point_base = buffer.transform(point_laser, "base_link");
             ROS_INFO("%.2f %.2f, %.2f", point_base.point.x, point_base.point.y, point_base.point.z);
         } catch(const std::exception &e) {
-            ROS_INFO("程序异常");
+            ROS_INFO("%s", e.what());
         }
         r.sleep();
     }

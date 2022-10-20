@@ -11,7 +11,9 @@
         "istream": "cpp",
         "ostream": "cpp",
         "sstream": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "optional": "cpp",
+        "variant": "cpp"
     },
     "python.analysis.extraPaths": [
         "/home/boiledman/Fast-Drone-250/devel/lib/python3/dist-packages",
