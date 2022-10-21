@@ -290,3 +290,11 @@
 /home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/edit_cache.dir
 /home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/test.dir
 /home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/spawn_my_turtle.dir
+/home/boiledman/learn_ros/build/demo21_urdf_rviz/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo21_urdf_rviz/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo21_urdf_rviz/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo21_urdf_rviz/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo21_urdf_rviz/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo21_urdf_rviz/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo21_urdf_rviz/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo21_urdf_rviz/CMakeFiles/demo21_urdf_rviz_xacro_generated_to_devel_space_.dir

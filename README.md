@@ -272,9 +272,22 @@ evince frames.pdf
 
 demo19_turtle_follow
 
-## rosbag
+## rqt 工具箱
 
-rosbag本质也是ros的节点，当录制时，rosbag是一个订阅节点，可以订阅话题消息并将订阅到的数据写入磁盘文件；当重放时，rosbag是一个发布节点，可以读取磁盘文件，发布文件中的话题消息。
+1. rqt_graph
+2. rosbag
+    rosbag本质也是ros的节点，当录制时，rosbag是一个订阅节点，可以订阅话题消息并将订阅到的数据写入磁盘文件；当重放时，rosbag是一个发布节点，可以读取磁盘文件，发布文件中的话题消息。
+3. rqt_console
+4. rqt_plot
+5. rqt_bag
+
+## 机器人系统仿真
+
+仿真实现涉及的内容主要有三:对机器人建模(URDF)、创建仿真环境(Gazebo)以及感知环境(Rviz)等系统性实现
+
+代码实现：
+
+demo21_urdf_rviz
 
 
 ## 问题

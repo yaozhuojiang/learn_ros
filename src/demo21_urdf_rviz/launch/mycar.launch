@@ -1,0 +1,9 @@
+<launch>
+
+    <!-- 设置参数 -->
+    <param name="robot_description" textfile="/home/boiledman/learn_ros/src/demo21_urdf_rviz/urdf/mycar.urdf" />
+
+    <!-- 启动 rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d /home/boiledman/learn_ros/src/demo21_urdf_rviz/config/show_mycar.rviz"/>
+
+</launch>
