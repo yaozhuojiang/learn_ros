@@ -272,6 +272,11 @@ evince frames.pdf
 
 demo19_turtle_follow
 
+## rosbag
+
+rosbag本质也是ros的节点，当录制时，rosbag是一个订阅节点，可以订阅话题消息并将订阅到的数据写入磁盘文件；当重放时，rosbag是一个发布节点，可以读取磁盘文件，发布文件中的话题消息。
+
+
 ## 问题
 
 1. 坐标变换公式

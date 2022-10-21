@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/install
+
+Name: demo20_rosbag
+Description: Description of demo20_rosbag
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
