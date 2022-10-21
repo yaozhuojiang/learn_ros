@@ -8,7 +8,7 @@ void doPose(const turtlesim::Pose::ConstPtr &pose)
 {
     static tf2_ros::TransformBroadcaster broadcaster;
     geometry_msgs::TransformStamped tfs;
-    tfs.header.frame_id = "world";
+    tfs.header.frame_id = "world1";
     tfs.header.stamp = ros::Time::now();
     tfs.child_frame_id = "turtle1";
     tfs.transform.translation.x = pose -> x;

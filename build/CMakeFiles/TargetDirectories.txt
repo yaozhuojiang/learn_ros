@@ -265,3 +265,14 @@
 /home/boiledman/learn_ros/build/demo18_multi_transformation/CMakeFiles/edit_cache.dir
 /home/boiledman/learn_ros/build/demo18_multi_transformation/CMakeFiles/test.dir
 /home/boiledman/learn_ros/build/demo18_multi_transformation/CMakeFiles/sub.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/control_turtle1.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/turtle_follow.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/coordinate_pub.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo19_turtle_follow/CMakeFiles/spawn_my_turtle.dir

@@ -1545,6 +1545,58 @@ sub/fast:
 	$(MAKE) -f demo18_multi_transformation/CMakeFiles/sub.dir/build.make demo18_multi_transformation/CMakeFiles/sub.dir/build
 .PHONY : sub/fast
 
+#=============================================================================
+# Target rules for targets named control_turtle1
+
+# Build rule for target.
+control_turtle1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 control_turtle1
+.PHONY : control_turtle1
+
+# fast build rule for target.
+control_turtle1/fast:
+	$(MAKE) -f demo19_turtle_follow/CMakeFiles/control_turtle1.dir/build.make demo19_turtle_follow/CMakeFiles/control_turtle1.dir/build
+.PHONY : control_turtle1/fast
+
+#=============================================================================
+# Target rules for targets named turtle_follow
+
+# Build rule for target.
+turtle_follow: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 turtle_follow
+.PHONY : turtle_follow
+
+# fast build rule for target.
+turtle_follow/fast:
+	$(MAKE) -f demo19_turtle_follow/CMakeFiles/turtle_follow.dir/build.make demo19_turtle_follow/CMakeFiles/turtle_follow.dir/build
+.PHONY : turtle_follow/fast
+
+#=============================================================================
+# Target rules for targets named coordinate_pub
+
+# Build rule for target.
+coordinate_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coordinate_pub
+.PHONY : coordinate_pub
+
+# fast build rule for target.
+coordinate_pub/fast:
+	$(MAKE) -f demo19_turtle_follow/CMakeFiles/coordinate_pub.dir/build.make demo19_turtle_follow/CMakeFiles/coordinate_pub.dir/build
+.PHONY : coordinate_pub/fast
+
+#=============================================================================
+# Target rules for targets named spawn_my_turtle
+
+# Build rule for target.
+spawn_my_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spawn_my_turtle
+.PHONY : spawn_my_turtle
+
+# fast build rule for target.
+spawn_my_turtle/fast:
+	$(MAKE) -f demo19_turtle_follow/CMakeFiles/spawn_my_turtle.dir/build.make demo19_turtle_follow/CMakeFiles/spawn_my_turtle.dir/build
+.PHONY : spawn_my_turtle/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1664,6 +1716,10 @@ help:
 	@echo "... dynamic_tf_sub"
 	@echo "... dynamic_tf_pub"
 	@echo "... sub"
+	@echo "... control_turtle1"
+	@echo "... turtle_follow"
+	@echo "... coordinate_pub"
+	@echo "... spawn_my_turtle"
 .PHONY : help
 
 
