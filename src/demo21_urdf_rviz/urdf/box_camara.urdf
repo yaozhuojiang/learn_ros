@@ -1,0 +1,56 @@
+<!--
+
+    使用 base_footprint 优化
+
+-->
+<robot name="mycar">
+    <!-- 设置一个原点(机器人中心点的投影) -->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <sphere radius="0.001" />
+            </geometry>
+        </visual>
+    </link>
+    /home/boiledman/learn_ros/src/demo21_urdf_rviz/urdf/box_camara.urdf
+    <!-- 添加底盘 -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.5 0.2 0.1" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="blue">
+                <color rgba="0 0 1.0 0.5" />
+            </material>
+        </visual>
+    </link>
+
+    <!-- 底盘与原点连接的关节 -->
+    <joint name="base_link2base_footprint" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0 0 0.05" />
+    </joint>
+
+    <!-- 添加摄像头 -->
+    <link name="camera">
+        <visual>
+            <geometry>
+                <box size="0.02 0.05 0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="red">
+                <color rgba="1 0 0 0.5" />
+            </material>
+        </visual>
+    </link>
+    <!-- 关节 -->
+    <joint name="camera2baselink" type="continuous">
+        <parent link="base_link"/>
+        <child link="camera" />
+        <origin xyz="0.2 0 0.075" rpy="0 0 0" />
+        <axis xyz="0 0 1" />
+    </joint>
+
+</robot>

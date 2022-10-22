@@ -1,0 +1,1 @@
+rosrun xacro xacro modified_car.xacro > modified_car.urdf

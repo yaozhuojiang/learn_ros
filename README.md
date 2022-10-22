@@ -285,13 +285,14 @@ demo19_turtle_follow
 
 仿真实现涉及的内容主要有三:对机器人建模(URDF)、创建仿真环境(Gazebo)以及感知环境(Rviz)等系统性实现
 
+[相关属性](http://www.autolabor.com.cn/book/ROSTutorials/di-6-zhang-ji-qi-ren-xi-tong-fang-zhen/62-fang-zhen-urdf-ji-cheng-rviz/624-urdfyu-fa-xiang-jie-02-link.html)
+
 代码实现：
 
 demo21_urdf_rviz
-
+(URDF xacro arbotix)
 
 ## 问题
 
 1. 坐标变换公式
 2. ROS 多线程，订阅多个话题等需求
-
