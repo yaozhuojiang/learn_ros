@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/devel
+
+Name: demo22_urdf_gazebo
+Description: Description of demo22_urdf_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
