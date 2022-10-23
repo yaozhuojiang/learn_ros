@@ -5,7 +5,7 @@
 
     <!-- 启动 gazebo -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
-        <arg name="world_name" value="$(find demo22_urdf_gazebo)/worlds/box_sphere.world" />
+        <arg name="world_name" value="$(find demo22_urdf_gazebo)/worlds/box_house.world" />
     </include>
     <!-- 在 gazebo 中显示机器人模型 -->
     <node pkg="gazebo_ros" type="spawn_model" name="model" args="-urdf -model mycar -param robot_description"  />

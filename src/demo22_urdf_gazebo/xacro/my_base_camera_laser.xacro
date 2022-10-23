@@ -4,4 +4,8 @@
     <xacro:include filename="my_base.xacro" />
     <xacro:include filename="my_camera.xacro" />
     <xacro:include filename="my_laser.xacro" />
+    <xacro:include filename="move.xacro" />
+    <xacro:include filename="my_sensors_laser.xacro" />
+    <xacro:include filename="my_sensors_camera.xacro" />
+    <xacro:include filename="my_sensors_kinect.xacro" />
 </robot>
