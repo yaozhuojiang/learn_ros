@@ -577,6 +577,12 @@ demo25_dynamic_reconfigure_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/dem
 //Value Computed by CMake
 demo25_dynamic_reconfigure_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo25_dynamic_reconfigure
 
+//Value Computed by CMake
+demo26_pluginlib_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo26_pluginlib
+
+//Value Computed by CMake
+demo26_pluginlib_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo26_pluginlib
+
 //The directory containing a CMake configuration file for diagnostic_msgs.
 diagnostic_msgs_DIR:PATH=/opt/ros/noetic/share/diagnostic_msgs/cmake
 
@@ -963,7 +969,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=31
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

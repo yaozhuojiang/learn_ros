@@ -190,6 +190,15 @@
 /home/boiledman/learn_ros/build/demo15_duplicate_param/CMakeFiles/edit_cache.dir
 /home/boiledman/learn_ros/build/demo15_duplicate_param/CMakeFiles/test.dir
 /home/boiledman/learn_ros/build/demo15_duplicate_param/CMakeFiles/demo15.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/install/local.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/install.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/list_install_components.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/rebuild_cache.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/edit_cache.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/test.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/install/strip.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/polygon_loader.dir
+/home/boiledman/learn_ros/build/demo26_pluginlib/CMakeFiles/polygon_plugins.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install/strip.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install/local.dir
 /home/boiledman/learn_ros/build/hello_world/CMakeFiles/install.dir

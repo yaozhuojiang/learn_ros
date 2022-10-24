@@ -1,0 +1,11 @@
+<!-- 插件库的相对路径 -->
+<library path="lib/libpolygon_plugins">
+  <!-- type="插件类" base_class_type="基类" -->
+  <class type="polygon_plugins::Triangle" base_class_type="polygon_base::RegularPolygon">
+    <!-- 描述信息 -->
+    <description>This is a triangle plugin.</description>
+  </class>
+  <class type="polygon_plugins::Square" base_class_type="polygon_base::RegularPolygon">
+    <description>This is a square plugin.</description>
+  </class>
+</library>
