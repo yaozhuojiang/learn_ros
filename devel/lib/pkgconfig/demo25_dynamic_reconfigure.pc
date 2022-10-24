@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/devel
+
+Name: demo25_dynamic_reconfigure
+Description: Description of demo25_dynamic_reconfigure
+Version: 0.0.0
+Cflags: -I/home/boiledman/learn_ros/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

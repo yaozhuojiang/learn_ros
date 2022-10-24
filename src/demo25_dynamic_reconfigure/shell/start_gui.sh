@@ -1,0 +1,2 @@
+rosrun rqt_reconfigure rqt_reconfigure
+rosrun rqt_gui rqt_gui -s rqt_reconfigure

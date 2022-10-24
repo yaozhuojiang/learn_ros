@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dr_node" pkg="demo25_dynamic_reconfigure" type="dr_node">
+  <param name="int_param" type="int" value="50" />
+  <param name="double_param" type="double" value="1.57" />
+  <param name="string_param" type="str" value="hello world " />
+  <param name="bool_param" type="bool" value="True" />
+  <param name="list_param" type="int" value="0" />
+</node>
+\endverbatim
+
