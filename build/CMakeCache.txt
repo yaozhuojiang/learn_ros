@@ -565,6 +565,12 @@ demo23_navigation_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo23_navig
 //Value Computed by CMake
 demo23_navigation_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo23_navigation
 
+//Value Computed by CMake
+demo24_action_BINARY_DIR:STATIC=/home/boiledman/learn_ros/build/demo24_action
+
+//Value Computed by CMake
+demo24_action_SOURCE_DIR:STATIC=/home/boiledman/learn_ros/src/demo24_action
+
 //The directory containing a CMake configuration file for diagnostic_msgs.
 diagnostic_msgs_DIR:PATH=/opt/ros/noetic/share/diagnostic_msgs/cmake
 
@@ -951,7 +957,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=28
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=29
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

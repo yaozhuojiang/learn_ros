@@ -1,0 +1,8 @@
+prefix=/home/boiledman/learn_ros/devel
+
+Name: demo24_action
+Description: Description of demo24_action
+Version: 0.0.0
+Cflags: -I/home/boiledman/learn_ros/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -82,49 +82,6 @@ rqt_graph
 rosrun rqt_graph rqt_graph
 ```
 
-## HelloWorld 实现
-
-### cpp 实现
-
-1. 先创建一个工作空间
-
-    ```bash
-    mkdir -p 自定义空间名称/src
-    cd 自定义空间名称
-    catkin_make
-    ```
-
-2. 创建一个功能包
-
-    ```bash
-    cd src
-    catkin_create_pkg 自定义ROS包名 roscpp rospy std_msgs
-    ```
-
-3. 进入 ros 包的 src 目录编辑源文件
-4. 编辑 ros 包下的 Cmakelist.txt文件
-5. 进入工作空间目录并编译
-6. 执行
-
-    ```bash
-    roscore
-    cd 工作空间
-    source devel/setup.bash
-    rosrun 包名 c++节点
-    ```
-
-eg：hello_world/
-
-### py实现
-
-1. 进入 ros 包添加 scripts 目录并编辑 python 文件
-2. 为 python 文件添加可执行权限
-3. 编辑 ros 包下的 CamkeList.txt 文件
-4. 进入工作空间目录并编译
-5. 进入工作空间目录并执行
-
-eg：hello_world/
-
 ## launch 文件
 
 roslaunch 命令不能保证按照 node 的声明顺序来启动节点(节点的启动是多进程的)
@@ -142,6 +99,7 @@ OS 中的基本通信机制主要有如下三种实现策略:
 - 话题通信(发布订阅模式)
 - 服务通信(请求响应模式)
 - 参数服务器(参数共享模式)
+- Action 通信
 
 ### 话题通信
 
@@ -189,6 +147,10 @@ OS 中的基本通信机制主要有如下三种实现策略:
 ![picture 1](.assets_IMG/README/IMG_20221007-120853717.png)  
 
 **代码实现**：demo04_param
+
+### Action 通信
+
+**代码实现**: demo24_action
 
 ## 常用命令
 
@@ -295,7 +257,6 @@ demo21_urdf_rviz
 ## 全局地图
 
 SLAM： 机器人在未知环境中从一个未知位置开始移动,在移动过程中根据位置估计和地图进行自身定位，同时在自身定位的基础上建造增量式地图，以绘制出外部环境的完全地图。
-
 
 
 ## 问题
