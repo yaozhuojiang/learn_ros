@@ -1,0 +1,14 @@
+<launch>
+    <!-- 设置nodelet管理器 -->
+    <node pkg="nodelet" type="nodelet" name="mymanager" args="manager" output="screen" />
+    <!-- 启动节点1，名称为 n1, 参数 /n1/value 为100 -->
+    <node pkg="nodelet" type="nodelet" name="n1" args="load nodelet_tutorial_math/Plus mymanager" output="screen" >
+        <param name="value" value="100" />
+    </node>
+    <!-- 启动节点2，名称为 n2, 参数 /n2/value 为-50 -->
+    <node pkg="nodelet" type="nodelet" name="n2" args="load nodelet_tutorial_math/Plus mymanager" output="screen" >
+        <param name="value" value="-50" />
+        <remap from="/n2/in" to="/n1/out" />
+    </node>
+
+</launch>
