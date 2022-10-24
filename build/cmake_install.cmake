@@ -152,6 +152,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/boiledman/learn_ros/build/demo17_tf_turle/cmake_install.cmake")
   include("/home/boiledman/learn_ros/build/demo18_multi_transformation/cmake_install.cmake")
   include("/home/boiledman/learn_ros/build/demo19_turtle_follow/cmake_install.cmake")
+  include("/home/boiledman/learn_ros/build/demo23_navigation/cmake_install.cmake")
   include("/home/boiledman/learn_ros/build/demo21_urdf_rviz/cmake_install.cmake")
   include("/home/boiledman/learn_ros/build/demo22_urdf_gazebo/cmake_install.cmake")
 
